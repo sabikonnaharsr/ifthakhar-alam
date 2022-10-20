@@ -12,6 +12,7 @@ p{
     color: tomato;
     padding-right: 5px;
 }
+
 h1{
     font-size: 30px;
     padding-left: 6px;
@@ -141,6 +142,10 @@ footer p{
 }
 .title-two{
     display: block;
+}
+.p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
 }
 
 }
