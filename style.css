@@ -5,7 +5,7 @@ body{
 }
 p{
     font-family: 'Poppins', sans-serif;
-    font-size: 10px;
+    font-size: 18px;
 }
 .name-modify{
     color: tomato;
@@ -21,7 +21,6 @@ h2{
 .top-content{
     display: flex;
     margin-bottom: 80px;
-     
 }
 .details-area{
     width: 50%; 
@@ -36,9 +35,9 @@ h2{
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orangered, orange);
-    border-radius: 7px; 
+    border-radius: 7px;
     padding: 7px 25px;
-    font-size: 11px;
+    font-size: 15px;
     color: white;
 }
 
@@ -59,6 +58,12 @@ h2{
     margin-right: 5%;
     padding-right: 20px;
     padding-left: 20px;
+}
+.title-one{
+    display: block;
+}
+.title-two{
+    display: none;
 }
 
 .president-name-modify{
@@ -95,4 +100,45 @@ footer p{
     margin-bottom: 0px;
 }
 /* -------------------- */
+/* @media  (max-width: 880px) {
+    .top-content {
+        flex-direction: column;
+        
+    }
+} */
+/* @media only screen  and (min-width: px) and (max-width: 992px) */
 
+@media only screen and (max-width: 668px){
+    body{
+        border: 1px solid red;
+    }
+    .top-content{
+        flex-direction: column;
+    }
+    .details-area{
+        width: 90%;
+        margin: auto;
+
+    }
+    #experience-title-analyst{
+        width: 90%;
+        margin: auto;
+        padding: 0;
+        margin-bottom: 20px;
+}
+    #experience-title-buisness{
+        width: 90%;
+        margin: auto;
+        padding: 0;
+}
+.pic-area{
+    margin-top: 30px;
+}
+.title-one{
+    display: none;
+}
+.title-two{
+    display: block;
+}
+
+}
