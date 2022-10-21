@@ -123,9 +123,7 @@ footer p{
 /* @media only screen  and (min-width: px) and (max-width: 992px) */
 
 @media only screen and (max-width: 668px){
-    body{
-        border: 1px solid red;
-    }
+
     .top-content{
         flex-direction: column;
     }
@@ -154,8 +152,10 @@ footer p{
 .title-two{
     display: block;
 }
-.p{
-   
+/* .p{
+    font-size: 15px;
+} */
+.text{
     font-size: 15px;
 }
 .name-modify{
